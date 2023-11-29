@@ -1,0 +1,38 @@
+PODS:
+  - CHCSVParser (2.1.0)
+  - SAMKeychain (1.5.3)
+  - SimpleUIKit (1.0.7):
+    - SimpleUIKit/SimpleActivityView (= 1.0.7)
+    - SimpleUIKit/SimpleAlertController (= 1.0.7)
+    - SimpleUIKit/SimpleAttributedString (= 1.0.7)
+    - SimpleUIKit/SimpleLocalNotification (= 1.0.7)
+    - SimpleUIKit/SimpleMotionEffects (= 1.0.7)
+    - SimpleUIKit/SimplePositioning (= 1.0.7)
+    - SimpleUIKit/SimpleTableView (= 1.0.7)
+  - SimpleUIKit/SimpleActivityView (1.0.7)
+  - SimpleUIKit/SimpleAlertController (1.0.7)
+  - SimpleUIKit/SimpleAttributedString (1.0.7)
+  - SimpleUIKit/SimpleLocalNotification (1.0.7)
+  - SimpleUIKit/SimpleMotionEffects (1.0.7)
+  - SimpleUIKit/SimplePositioning (1.0.7)
+  - SimpleUIKit/SimpleTableView (1.0.7)
+
+DEPENDENCIES:
+  - CHCSVParser
+  - SAMKeychain
+  - SimpleUIKit
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CHCSVParser
+    - SAMKeychain
+    - SimpleUIKit
+
+SPEC CHECKSUMS:
+  CHCSVParser: 3bcc7bdb72111a31222e95d57eacceefe4e537e8
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SimpleUIKit: 44f05a5b2d3d7522766d326c0f09b02d89bd37c0
+
+PODFILE CHECKSUM: eb7cc14155c295091500ee8cdc7b636d64bd3aa6
+
+COCOAPODS: 1.13.0

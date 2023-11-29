@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>📤 Exporting data</string>
+		<key>subtitle</key>
+		<string>If you choose Settings-&gt;Export, you can choose between two file formats: JSON or CSV. After the file is created you will get prompted to open that file using another app.
+
+Here are some options:
+- use Mail to send the file somewhere
+- use iCloud or Dropbox to store the file online
+- use AirDrop to transfer the file directly
+- use QuickLook to preview the file contents</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>📥 Importing data</string>
+		<key>subtitle</key>
+		<string>To import a file, navigate to the file in any app. E.g. Mail, Dropbox or iCloud Drive. Then choose &quot;Open In&quot; and choose Still Waitin from the list of Apps appearing. Still Waitin will then read the file, tell you how many entries were found and ask you, if those entries should be imported. After confirming this, the entries will appear in the list.</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>💡 What gets exported?</string>
+		<key>subtitle</key>
+		<string>Everything, except attached photos. For every single entry the date, name, value, description, direction, location, archived status, etc. gets exported.</string>
+	</dict>
+</array>
+</plist>

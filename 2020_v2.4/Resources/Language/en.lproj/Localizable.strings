@@ -1,0 +1,155 @@
+//
+//  Localizable.strings (English)
+//  Still Waitin
+//
+
+"keyOk"        = "OK";
+"keyBack"      = "Back";
+"keyCancel"    = "Cancel";
+"keySorry"     = "Sorry";
+"keyNotice"    = "Notice";
+"keyDelete"    = "Delete";
+"keyEmail"     = "Email";
+"keySMS"       = "SMS";
+"keyShareOther"= "Others";
+"keySendTo"    = "Send to…";
+"keyNew"       = "New";
+"keyEdit"      = "Edit";
+"keyDismiss"   = "Dismiss";
+"keySave"      = "Save";
+"keyClose"     = "Close";
+"keyShow"      = "Show";
+"keyLoading"   = "Loading…";
+"keyPerson"    = "Person";
+"keyDate"      = "Date";
+"keyGave"      = "Gave";
+"keyGot"       = "Got";
+"keyDone"      = "Done";
+"keyReset"     = "Reset";
+"keyUpdating"  = "Updating data…";
+
+"keyOpenEntries"      = "Open";
+"keyArchivedEntries"  = "Archived";
+"keyAllEntries"       = "All";
+"keyArchive"          = "Archive";
+"keyUnarchive"        = "Unarchive";
+"keyArchivedEntriesExplanationFormat" = "Archived Entries can be found under '%@'. Access it by scrolling all the way up.";
+
+"keyDeleteSingleEntryConfirmation"  = "Do you want to delete this entry?\nYou can't undo this.";
+"keyDeleteGroupConfirmationFormat"  = "Do you want to delete all entries (%@) for '%@'?\nYou can't undo this.";
+"keyArchiveGroupConfirmationFormat" = "Do you want to archive all entries (%@) for '%@'?";
+
+"keyShortDatePattern"          = "MMM dd";
+"keyFooterInFormat"            = "owes me %@";
+"keyFooterOutFormat"           = "lent me %@";
+"keyFooterInFormatPastTense"   = "owed me %@";
+"keyFooterOutFormatPastTense"  = "lent me %@";
+"keyDescription"               = "Description";
+"keyNoDescription"             = "No Description";
+"keySavingEntry"               = "Saving entry";
+"keyLocationServiceError"      = "Location Services Disabled";
+"keyLocationServiceMessage"    = "You currently have all location services for this device disabled. If you proceed, you will be asked to confirm whether location services should be reenabled.";
+"keyMailSubject"               = "A Short Reminder";
+"keyListInfoTextImageUrl"      = "list_info_text_en.png";
+"keySearch"                    = "Search";
+"keyRecentlyUsed"              = "Recently used";
+
+"keyDetailsShare"    = "Share";
+"keyDetailsReminder" = "Reminder";
+"keyDetailsSetReminder" = "Set Reminder";
+
+"keySaveChangesTitleCreated" = "Save entry?";
+"keySaveChangesInfoCreated"  = "The entry hasn't been saved yet. Do you want to save it?";
+"keySaveChangesTitleChanged" = "Save changes?";
+"keySaveChangesInfoChanged"  = "The entry was changed. Do you want to save the changes?";
+
+"keyShareNoAccountsTitle"           = "Missing Account";
+"keyShareNoEmailAccountError"       = "Keinen Email Account gefunden.";
+
+"keyMailAllDebtsOfPerson" = "Send summary";
+"keyMailSingleDebt"       = "Send this debt only";
+
+"keyShortTextSharingFormatOut" = "Hi #name#, I still owe you #value# from #date#.\n\"#description#\"";
+"keyShortTextSharingFormatIn"  = "Hi #name#, you still owe me #value# from #date#.\n\"#description#\"";
+"keySentWithAppLinkFormat"     = "\n\nSent with %@";
+
+"keyMailFormatOut"   = "Hi #name#,\n\nA quick reminder.\nI still owe you #value# from #date#.\n\n\"#description#\"\n\n#location#";
+"keyMailFormatIn"    = "Hi #name#,\n\nA quick reminder.\nYou still owe me #value# from #date#.\n\n\"#description#\"\n\n#location#";
+"keyMailFormatMulti" = "Hi #name#,\n\nA quick reminder.\nThere are some open debts between us. The total is: #total_value#\n\n#debt_list#";
+
+"keyAddFirstEntry" = "Create a new entry";
+"keySettingsTitle" = "Settings";
+
+"keySettingsSectionBehavior"  = "Behavior";
+"keySettingsSectionPassword"  = "Password";
+"keySettingsSectionFeedback"  = "Feedback";
+"keySettingsSectionExport"    = "Data Export";
+
+"keyTotalSum"	    = "Total:";
+"keyShowTotalSum"	= "Show total sum";
+"keySingleListMode" = "Single-list mode";
+"keyShouldSkipDeletionAlerts" = "Skip deletion alerts";
+"keyShouldOpenToAllFormat" = "Always open to \"%@\"";
+"keyRate"			= "Rate";
+"keyRateApp"		= "Rate still waitin";
+"keyOpenAppStore"	= "Close still waitin and open the App Store?";
+"keyRateInfoText"	= "Do you like still waitin? \n (This message won't be shown again in v#version#.)";
+"keySetupPassword"	= "Setup password";
+"keyChooseCurrency" = "Choose currency";
+"keyChooseSwipeDeletionBehavior" = "Swipe-to-delete behavior";
+"keySendMail"       = "Send us an email";
+"keyEmailShareText"     = "Email/Share Text";
+"keyCustomizeEmailShareText" = "Customize Email/Share text";
+
+"keyCurrencySettingTitleFormat" = "Use %@ as currency?";
+"keyCurrencySettingInfo"        = "The currency will be used for all entries, also existing ones. No value conversions will be made.";
+"keyCurrencyDefaultRegion"      = "(Device region)";
+"keyCurrencyChooseFormatting"   = "Choose format:";
+
+"keyPasswordNeededAfter" = "Password needed after";
+"keyPasswordAlways"      = "Always";
+"keyPasswordSeconds"     = "seconds";
+"keyPasswordMinutes"     = "minutes";
+"keyPasswordSecondsShortFormat"= "%@s";
+"keyPasswordMinutesShortFormat"= "%@min";
+"keyPasswordSet"         = "New Password saved";
+"keyPasswordUnset"       = "Removed password";
+"keyTouchIDButtonTitle"  = "Use TouchID";
+"keyFaceIDButtonTitle"   = "Use FaceID";
+"keyTouchIDFaceIDPrompt" = "Login required";
+
+"keyRestorePurchases"        = "Restore purchases";
+"keyRestoreSuccess"          = "Successfully restored purchases!";
+"keyRestoreNothingToRestore" = "No purchase found for this account.";
+"keyRestoreFailed"           = "Could not restore purchases.";
+"keyAppstoreError"           = "Failed to connect to AppStore.";
+"keyAppstoreWaiting"         = "Loading AppStore";
+
+"keySharingIncoming"  = "Somone owes me";
+"keySharingOutgoing"  = "I owe someone";
+"keySharingMailIncoming" = "Somone owes me";
+"keySharingMailOutgoing" = "I owe someone";
+"keySharingMailSummary"  = "Summary for all debts of one person";
+"keySharingResetToDefaults"      = "Reset to System Defaults";
+"keySharingAlertMessageForReset" = "Any changes you made will be overwriten with the system defaults.";
+
+"keyExportData"          = "Export data";
+"keyExportFailed"        = "The data could not be exported.";
+"keyExporting"           = "Exporting";
+"keyImporting"           = "Importing";
+"keyImportTitle"         = "Data import";
+"keyStartImport"         = "Import";
+"keyImportMessageFormat" = "Do you want to import %d entries?";
+"keyImportError"         = "We could not import any entries.";
+"keyExportDataHelp"      = "Export/Import explained";
+
+"keyNoPermission"                  = "No Permission";
+"keyEnableNotificationsInSettings" = "You need to allow notifications. Go to \"Settings > Notifications > still waitin > Allow Notifications\" to enable them. Also ensure that \"Banners\" is checked.";
+
+"keyPhoto"                  = "Photo";
+"keyAddPhotoTake"           = "Take photo";
+"keyAddPhotoTakeNew"		= "Take new photo";
+"keyAddPhotoFromLibrary"	= "Choose photo from library";
+"keyAddPhotoChooseNew"      = "Choose new photo";
+"keyAddPhotoDelete"         = "Delete photo";
+

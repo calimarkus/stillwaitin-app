@@ -1,0 +1,11 @@
+//
+//  InfoPlist.strings (English)
+//  StillWaitin
+//
+
+"NSLocationWhenInUseUsageDescription" = "Automatically use the current location for new entries";
+"NSContactsUsageDescription"          = "Show contact suggestions when entering names";
+"NSPhotoLibraryUsageDescription"      = "Add photos to your entries from your photo library";
+"NSPhotoLibraryAddUsageDescription"   = "Save photos to your photo library";
+"NSCameraUsageDescription"            = "Add photos to your entries using the camera.";
+"NSFaceIDUsageDescription"            = "Unlock the app using FaceID / TouchID";

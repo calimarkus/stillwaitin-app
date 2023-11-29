@@ -1,0 +1,155 @@
+//
+//  Localizable.strings (German)
+//  Still Waitin
+//
+
+"keyOk"        = "OK";
+"keyBack"      = "Zurück";
+"keyCancel"    = "Abbrechen";
+"keySorry"     = "Entschuldigung";
+"keyNotice"    = "Hinweis";
+"keyDelete"    = "Löschen";
+"keyEmail"     = "E-Mail";
+"keySMS"       = "SMS";
+"keyShareOther"= "Andere Apps";
+"keySendTo"    = "Verschicken";
+"keyNew"       = "Neu";
+"keyEdit"      = "Bearbeiten";
+"keyDismiss"   = "Verwerfen";
+"keySave"      = "Speichern";
+"keyClose"     = "Schließen";
+"keyShow"      = "Anzeigen";
+"keyLoading"   = "Wird geladen…";
+"keyPerson"    = "Person";
+"keyDate"      = "Datum";
+"keyGave"      = "Gegeben";
+"keyGot"       = "Bekommen";
+"keyDone"      = "Fertig";
+"keyReset"     = "Reset";
+"keyUpdating"  = "Aktualisiere Daten…";
+
+"keyOpenEntries"      = "Offen";
+"keyArchivedEntries"  = "Archiviert";
+"keyAllEntries"       = "Alle";
+"keyArchive"          = "Archivieren";
+"keyUnarchive"        = "Als offen markieren";
+"keyArchivedEntriesExplanationFormat" = "Scrolle nach ganz oben und wähle '%@' um archivierte Einträge zu sehen.";
+
+"keyDeleteSingleEntryConfirmation"  = "Möchtest du diesen Eintrag löschen?\nDies kann nicht rückgängig gemacht werden.";
+"keyDeleteGroupConfirmationFormat"  = "Möchtest du alle Einträge (%@) für '%@' löschen?\nDies kann nicht rückgängig gemacht werden.";
+"keyArchiveGroupConfirmationFormat" = "Möchtest du alle Einträge (%@) für '%@' archivieren?";
+
+"keyShortDatePattern"          = "dd. MMM";
+"keyFooterInFormat"            = "schuldet mir %@";
+"keyFooterOutFormat"           = "hat mir %@ geliehen";
+"keyFooterInFormatPastTense"   = "schuldete mir %@";
+"keyFooterOutFormatPastTense"  = "hatte mir %@ geliehen";
+"keyDescription"               = "Beschreibung";
+"keyNoDescription"             = "Keine Beschreibung";
+"keySavingEntry"               = "Eintrag speichern";
+"keyLocationServiceError"      = "Location Services Disabled";
+"keyLocationServiceMessage"    = "You currently have all location services for this device disabled. If you proceed, you will be asked to confirm whether location services should be reenabled.";
+"keyMailSubject"               = "Kurze Erinnerung";
+"keyListInfoTextImageUrl"      = "list_info_text_de.png";
+"keySearch"                    = "Suchen";
+"keyRecentlyUsed"              = "Kürzlich genutzt";
+
+"keyDetailsShare"    = "Versenden";
+"keyDetailsReminder" = "Erinnerung";
+"keyDetailsSetReminder" = "Erinnerung am...";
+
+"keySaveChangesTitleCreated" = "Eintrag speichern?";
+"keySaveChangesInfoCreated"  = "Der Eintrag wurde noch nicht gespeichert. Sollen er gespeichert werden?";
+"keySaveChangesTitleChanged" = "Änderungen speichern?";
+"keySaveChangesInfoChanged"  = "Der Eintrag wurde verändert. Sollen die Änderungen gespeichert werden?";
+
+"keyShareNoAccountsTitle"           = "Account Fehler";
+"keyShareNoEmailAccountError"       = "Keinen Email Account gefunden.";
+
+"keyMailAllDebtsOfPerson" = "Zusammenfassung";
+"keyMailSingleDebt"       = "Nur diesen Eintrag";
+
+"keyShortTextSharingFormatOut" = "Hallo #name#, ich schulde dir noch #value# vom #date#.\n\"#description#\"";
+"keyShortTextSharingFormatIn"  = "Hallo #name#, du schuldest mir noch #value# vom #date#.\n\"#description#\"";
+"keySentWithAppLinkFormat"     = "\n\nGesendet mit %@";
+
+"keyMailFormatOut"   = "Hi #name#,\n\nEine kleine Erinnerung.\nIch schulde dir noch #value# vom #date#.\n\n\"#description#\"\n\n#location#";
+"keyMailFormatIn"    = "Hi #name#,\n\nEine kleine Erinnerung.\nDu schuldest mir noch #value# vom #date#.\n\n\"#description#\"\n\n#location#";
+"keyMailFormatMulti" = "Hi #name#,\n\nEine kleine Erinnerung.\nZwischen uns sind noch Schulden mit folgender Summe offen: #total_value#\n\n#debt_list#";
+
+"keyAddFirstEntry" = "Erstelle einen neuen Eintrag";
+"keySettingsTitle" = "Einstellungen";
+
+"keySettingsSectionBehavior"  = "Verhalten";
+"keySettingsSectionPassword"  = "Passwort";
+"keySettingsSectionFeedback"  = "Feedback";
+"keySettingsSectionExport"    = "Daten Export";
+
+"keyTotalSum"	    = "Gesamt:";
+"keyShowTotalSum"	= "Gesamtsumme anzeigen";
+"keySingleListMode" = "Einfache Listenstruktur";
+"keyShouldSkipDeletionAlerts" = "Keine Lösch-Bestätigungen";
+"keyShouldOpenToAllFormat" = "Immer zu \"%@\" öffnen";
+"keyRate"			= "Bewerten";
+"keyRateApp"		= "still waitin bewerten";
+"keyOpenAppStore"	= "still waitin beenden und den App Store öffnen?";
+"keyRateInfoText"	= "Gefällt Ihnen still waitin? \n (Diese Meldung wird in der v#version# nicht erneut angezeigt.)";
+"keySetupPassword"	= "Passwort einstellen";
+"keyChooseCurrency" = "Währung wählen";
+"keyChooseSwipeDeletionBehavior" = "Swipe-to-delete Verhalten";
+"keySendMail"       = "Sende uns eine E-Mail";
+"keyEmailShareText"     = "Email/Share Text";
+"keyCustomizeEmailShareText" = "Email/Share Text anpassen";
+
+"keyCurrencySettingTitleFormat" = "%@ als Währung benutzen?";
+"keyCurrencySettingInfo"        = "Die Währung wird für alle Einträge (auch bestehende) genutzt. Die Beträge werden nicht automatisch umgerechnet.";
+"keyCurrencyDefaultRegion"      = "(Handy Region)";
+"keyCurrencyChooseFormatting"   = "Format auswählen:";
+
+"keyPasswordNeededAfter" = "Passwort nötig nach";
+"keyPasswordAlways"      = "Immer";
+"keyPasswordSeconds"     = "Sekunden";
+"keyPasswordMinutes"     = "Minuten";
+"keyPasswordSecondsShortFormat"= "%@s";
+"keyPasswordMinutesShortFormat"= "%@ Min";
+"keyPasswordSet"         = "Neues Password gespeichert";
+"keyPasswordUnset"       = "Password wurde entfernt";
+"keyTouchIDButtonTitle"  = "TouchID benutzen";
+"keyFaceIDButtonTitle"   = "FaceID benutzen";
+"keyTouchIDFaceIDPrompt" = "Login benötigt";
+
+"keyRestorePurchases"        = "Einkäufe wiederherstellen";
+"keyRestoreSuccess"          = "Einkäufe erfolgreich wiederhergestellt!";
+"keyRestoreNothingToRestore" = "Zu diesem Account wurden keine Einkäufe gefunden.";
+"keyRestoreFailed"           = "Einkäufe konnten nicht wiederhergestellt werden.";
+"keyAppstoreError"           = "AppStore Verbindung fehlgeschlagen.";
+"keyAppstoreWaiting"         = "Lade AppStore";
+
+"keySharingIncoming"  = "Jemand schuldet mir";
+"keySharingOutgoing"  = "Ich schulde Jemandem";
+"keySharingMailIncoming" = "Jemand schuldet mir";
+"keySharingMailOutgoing" = "Ich schulde Jemandem";
+"keySharingMailSummary"  = "Zusammenfassung aller Schulden einer Person";
+"keySharingResetToDefaults"      = "Auf Original zurücksetzen";
+"keySharingAlertMessageForReset" = "Alle Änderungen, die du gemacht hast werden mit den Original Einstellungen überschrieben.";
+
+"keyExportData"          = "Daten exportieren";
+"keyExportFailed"        = "Die Daten konnten leider nicht exportiert werden.";
+"keyExporting"           = "Daten werden exportiert";
+"keyImporting"           = "Daten werden impotiert";
+"keyImportTitle"         = "Datenimport";
+"keyStartImport"         = "Importieren";
+"keyImportMessageFormat" = "Möchtest du %d Einträge importieren?";
+"keyImportError"         = "Es konnten keine Einträge importiert werden.";
+"keyExportDataHelp"      = "Export/Import erklärt";
+
+"keyNoPermission"                  = "Fehlende Erlaubnis";
+"keyEnableNotificationsInSettings" = "Mitteilungen sind deaktivert. Gehe zu \"Einstellungen > Mitteilungen > still waitin > Mitteilungen erlauben\" um sie zu aktivieren. \"Banner\" sollte auch einen Haken haben.";
+
+"keyPhoto"                  = "Foto";
+"keyAddPhotoTake"           = "Foto aufnehmen";
+"keyAddPhotoTakeNew"		= "Neues Foto aufnehmen";
+"keyAddPhotoFromLibrary"	= "Foto auswählen";
+"keyAddPhotoChooseNew"      = "Neues Foto wählen";
+"keyAddPhotoDelete"         = "Foto löschen";
+

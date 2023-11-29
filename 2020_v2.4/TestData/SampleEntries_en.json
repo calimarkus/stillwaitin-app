@@ -1,0 +1,45 @@
+{
+    "entries": [
+        {
+            "person": "Martin",
+            "longitude": 13.4479177691024,
+            "locationAvailable": true,
+            "dateGMT": 1417495635,
+            "latitude": 52.50458117385626,
+            "value": 20,
+            "direction": "YOM",
+            "description": "Cheeseburger @ The Bird",
+            "currency": "USD"
+        },
+        {
+            "person": "Sandra",
+            "longitude": 0,
+            "locationAvailable": false,
+            "dateGMT": 1417495745,
+            "latitude": 0,
+            "value": 450,
+            "direction": "YOM",
+            "description": "Roadtrip",
+            "currency": "USD"
+        },
+        {
+            "person": "Martin",
+            "longitude": 0,
+            "locationAvailable": false,
+            "dateGMT": 1417501818,
+            "latitude": 0,
+            "value": 45,
+            "direction": "IOU",
+            "description": "Wakeboarding",
+            "currency": "USD"
+        }
+    ],
+    "meta": {
+        "systemVersion": "8.1",
+        "systemName": "iPhone OS",
+        "appName": "SW Debug",
+        "model": "iPhone Simulator",
+        "appVersion": "1.7.0b1",
+        "exportDateGMT": 1417502686
+    }
+}

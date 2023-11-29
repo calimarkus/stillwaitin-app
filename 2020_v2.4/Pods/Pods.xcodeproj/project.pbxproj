@@ -1,0 +1,1239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B3F3AEF50D2662180BF16D7AB1E515D /* CHCSVParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFC85EE881562FCD5A71D900CFAFFD3 /* CHCSVParser-dummy.m */; };
+		1C8CEFE3B0B501E758FEC939CDF27C08 /* SimpleAlertButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9DB4D39641DFFA6D25855BE218EB4F /* SimpleAlertButton.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		291241816A344EF919BC161062AE95F5 /* SimpleActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AD3742B6569751211F2ACF94198C14 /* SimpleActivityView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		37407EAEC76EE2397341C3B2481D2CCF /* SimpleActivityView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA520D7AE3E0709E5A74CB5D53FC4EF /* SimpleActivityView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3C36E0230DA38F17AE6F2E8EC05D21CD /* UIAlertController+SimpleUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6C32AD142E967797ACE948651A9AC4 /* UIAlertController+SimpleUIKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3CFB9C8D31456E0AD8ECF0883F7B1174 /* UIView+SimpleMotionEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = D6CA9FA04E01F8DF9196A9BC9198938B /* UIView+SimpleMotionEffects.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5241B208A68A5C81B2EDDB169635936B /* NSAttributedString+SimpleUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EDCF8864D119ACC4B6768D4F447847FA /* NSAttributedString+SimpleUIKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		598DD0B865B6836A871A97E07F82FC60 /* SimpleTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D055280F60CDF7BA17BAABD94E9C69C8 /* SimpleTableView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5EA8D294AA6E52979AADFAA77D6E1293 /* SAMKeychainQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FEAAA5B4872DEE9F81804EB9B41DAE3 /* SAMKeychainQuery.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		65AAC936EBA48090F6727E60A284D427 /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 24A97E1A2C62C1B9B97D3B3FBC2BEFC6 /* SAMKeychain.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7D906F72A743C2BE780AF4DA784C47B4 /* SimpleAlertButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 74816503174DB5F60EF679E81A4EF974 /* SimpleAlertButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		851BD99B65738A50815F3222032AC528 /* SimpleTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 16DB54138F32648ACD60DD2D44C55325 /* SimpleTableView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		91FBDC660E15F8F58464E6EA07B919D1 /* SimpleUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3C8D5423BE3604F82916B78B08F935 /* SimpleUIKit-dummy.m */; };
+		A08B2E13A5459BEAF92CE37115A923E9 /* CHCSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F7927077FB0266F60468CA8F726729D8 /* CHCSVParser.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A7DEA50D69E4EA6A306490366F4632B4 /* SimpleLocalNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCFC2BAC123734F1629047332778496 /* SimpleLocalNotification.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B031077844A34C106FBFE97DC6FEB61D /* UIView+SimplePositioning.m in Sources */ = {isa = PBXBuildFile; fileRef = DB73742DAA0B7EC62D7C17B15271D7C0 /* UIView+SimplePositioning.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B9106D041C6918A8A423DC07676783E9 /* CHCSVParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AB3814A5AECCEE38032DDC19D96A116 /* CHCSVParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD5F5F49C67E7B65598F4FA1E35A3006 /* SimpleLocalNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EC7EB414D0B9DEA04ED0E1A39A3E936 /* SimpleLocalNotification.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C07FCCCCB449B3229410E0F2E8722957 /* UIView+SimplePositioning.h in Headers */ = {isa = PBXBuildFile; fileRef = 9577E28C09F8EA2B974693BBB607DBCA /* UIView+SimplePositioning.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0E7B3BC167BCF7EFAE7AFEC1C212A08 /* Pods-StillWaitin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C576D9F8A0DA19C5D01EBD772F2667 /* Pods-StillWaitin-dummy.m */; };
+		C231E924EBD3B84CC215B7DDEC79873C /* SAMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 789FEF443390155ACC7D9A38EF5E0A61 /* SAMKeychain.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C851A49A6992300C881BD8695E2C1236 /* UIView+SimpleMotionEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EBCA75686492897137360722FE1F144 /* UIView+SimpleMotionEffects.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C961BFBA7228C2CDEEA074DB588CA46B /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 452FA7EB73131A8A31E602D7E857EB5C /* SAMKeychainQuery.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CBA61DDC7C60924FB12286192DB010DB /* SAMKeychain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B912F241F4E81B0620069768CC8CAF86 /* SAMKeychain-dummy.m */; };
+		D652BDFDB24CE69B271751F1207D9236 /* NSAttributedString+SimpleUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 73605D8874839F15BD9696E424A411AE /* NSAttributedString+SimpleUIKit.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E16DD88A62791FF1BBC637847A223823 /* UIAlertController+SimpleUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B133682DAE6ADB88C3BEEE8302468B94 /* UIAlertController+SimpleUIKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4942E9853EE693FD32E2BA9E613C4055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0556E01B497BF481907E709C9ADA092B;
+			remoteInfo = SimpleUIKit;
+		};
+		57D74E420EBE3D99BF65EFA38E33796D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5572D14DECB5A676C1B31B30A3BA7F10;
+			remoteInfo = SAMKeychain;
+		};
+		6F5255C2630A8CD99B0B169C3B46AF93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6BE8E566909E61AC3F867A2441E9E17;
+			remoteInfo = CHCSVParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00AD3742B6569751211F2ACF94198C14 /* SimpleActivityView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SimpleActivityView.m; path = SimpleUIKit/SimpleActivityView/SimpleActivityView.m; sourceTree = "<group>"; };
+		03DC524D3A59753E342A9D2C47F88991 /* CHCSVParser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHCSVParser.debug.xcconfig; sourceTree = "<group>"; };
+		16DB54138F32648ACD60DD2D44C55325 /* SimpleTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimpleTableView.h; path = SimpleUIKit/SimpleTableView/SimpleTableView.h; sourceTree = "<group>"; };
+		1AB3814A5AECCEE38032DDC19D96A116 /* CHCSVParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHCSVParser.h; path = CHCSVParser/CHCSVParser/CHCSVParser.h; sourceTree = "<group>"; };
+		1EC7EB414D0B9DEA04ED0E1A39A3E936 /* SimpleLocalNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimpleLocalNotification.h; path = SimpleUIKit/SimpleLocalNotification/SimpleLocalNotification.h; sourceTree = "<group>"; };
+		24A97E1A2C62C1B9B97D3B3FBC2BEFC6 /* SAMKeychain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychain.m; path = Sources/SAMKeychain.m; sourceTree = "<group>"; };
+		271AB866516A7FB8CD2ECC9242A9A66B /* Pods-StillWaitin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StillWaitin-acknowledgements.markdown"; sourceTree = "<group>"; };
+		452FA7EB73131A8A31E602D7E857EB5C /* SAMKeychainQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMKeychainQuery.m; path = Sources/SAMKeychainQuery.m; sourceTree = "<group>"; };
+		4BE97C364703BB9DBB5E7BBFBF99D180 /* Pods-StillWaitin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StillWaitin.debug.xcconfig"; sourceTree = "<group>"; };
+		4D9DB4D39641DFFA6D25855BE218EB4F /* SimpleAlertButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SimpleAlertButton.m; path = SimpleUIKit/SimpleAlertController/SimpleAlertButton.m; sourceTree = "<group>"; };
+		4FEAAA5B4872DEE9F81804EB9B41DAE3 /* SAMKeychainQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychainQuery.h; path = Sources/SAMKeychainQuery.h; sourceTree = "<group>"; };
+		51C66DDE6549D7E3293FBFC7EBB4D95B /* Pods-StillWaitin.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StillWaitin.beta.xcconfig"; sourceTree = "<group>"; };
+		5BA520D7AE3E0709E5A74CB5D53FC4EF /* SimpleActivityView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimpleActivityView.h; path = SimpleUIKit/SimpleActivityView/SimpleActivityView.h; sourceTree = "<group>"; };
+		5CCFC2BAC123734F1629047332778496 /* SimpleLocalNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SimpleLocalNotification.m; path = SimpleUIKit/SimpleLocalNotification/SimpleLocalNotification.m; sourceTree = "<group>"; };
+		5E6C32AD142E967797ACE948651A9AC4 /* UIAlertController+SimpleUIKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertController+SimpleUIKit.m"; path = "SimpleUIKit/SimpleAlertController/UIAlertController+SimpleUIKit.m"; sourceTree = "<group>"; };
+		5EBCA75686492897137360722FE1F144 /* UIView+SimpleMotionEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SimpleMotionEffects.h"; path = "SimpleUIKit/SimpleMotionEffects/UIView+SimpleMotionEffects.h"; sourceTree = "<group>"; };
+		612028EAFF1C2054A0EB821A9C9F2440 /* SAMKeychain */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = SAMKeychain; path = libSAMKeychain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C6E529EFCDF9DB86162297A5F430F4 /* Pods-StillWaitin */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-StillWaitin"; path = "libPods-StillWaitin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73605D8874839F15BD9696E424A411AE /* NSAttributedString+SimpleUIKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+SimpleUIKit.m"; path = "SimpleUIKit/SimpleAttributedString/NSAttributedString+SimpleUIKit.m"; sourceTree = "<group>"; };
+		74816503174DB5F60EF679E81A4EF974 /* SimpleAlertButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimpleAlertButton.h; path = SimpleUIKit/SimpleAlertController/SimpleAlertButton.h; sourceTree = "<group>"; };
+		773D4589DBC70CF683EBD1B1D987F1C9 /* SimpleUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleUIKit.debug.xcconfig; sourceTree = "<group>"; };
+		789FEF443390155ACC7D9A38EF5E0A61 /* SAMKeychain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMKeychain.h; path = Sources/SAMKeychain.h; sourceTree = "<group>"; };
+		7A145E4A169C5DC54A5267B00F64B14D /* SimpleUIKit */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = SimpleUIKit; path = libSimpleUIKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C576D9F8A0DA19C5D01EBD772F2667 /* Pods-StillWaitin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StillWaitin-dummy.m"; sourceTree = "<group>"; };
+		8C46FB6F3459504D12AB5736362CB75D /* Pods-StillWaitin.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StillWaitin.distribution.xcconfig"; sourceTree = "<group>"; };
+		8D3C8D5423BE3604F82916B78B08F935 /* SimpleUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleUIKit-dummy.m"; sourceTree = "<group>"; };
+		9407D621AC1AB8A932BF0D3F25FFEC40 /* SAMKeychain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMKeychain-prefix.pch"; sourceTree = "<group>"; };
+		94AA63B126804B02BBA5DC6AC2BBCFEA /* CHCSVParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHCSVParser-prefix.pch"; sourceTree = "<group>"; };
+		9577E28C09F8EA2B974693BBB607DBCA /* UIView+SimplePositioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SimplePositioning.h"; path = "SimpleUIKit/SimplePositioning/UIView+SimplePositioning.h"; sourceTree = "<group>"; };
+		983FDC596BFFEDFEF35FEAF16C884E79 /* SAMKeychain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAMKeychain.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FAC9A4BCDF3824BEFA51DAB94D54AA4 /* CHCSVParser */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = CHCSVParser; path = libCHCSVParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC9BBD828809709D3E6F2EA6C5C8783 /* Pods-StillWaitin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StillWaitin-acknowledgements.plist"; sourceTree = "<group>"; };
+		A2E007A33FFE10CDC08F2D0CBD2BFDC0 /* SAMKeychain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAMKeychain.release.xcconfig; sourceTree = "<group>"; };
+		AEDA2FB8A77951C291DAFC5FDA4C66E5 /* SimpleUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleUIKit.release.xcconfig; sourceTree = "<group>"; };
+		AFFC85EE881562FCD5A71D900CFAFFD3 /* CHCSVParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHCSVParser-dummy.m"; sourceTree = "<group>"; };
+		B133682DAE6ADB88C3BEEE8302468B94 /* UIAlertController+SimpleUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertController+SimpleUIKit.h"; path = "SimpleUIKit/SimpleAlertController/UIAlertController+SimpleUIKit.h"; sourceTree = "<group>"; };
+		B3407BB905481213594C47452CC3E163 /* SAMKeychain.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SAMKeychain.bundle; path = Support/SAMKeychain.bundle; sourceTree = "<group>"; };
+		B4984B259D81E3E268D4BB4EDB679272 /* SimpleUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleUIKit-prefix.pch"; sourceTree = "<group>"; };
+		B912F241F4E81B0620069768CC8CAF86 /* SAMKeychain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAMKeychain-dummy.m"; sourceTree = "<group>"; };
+		C3563D1EF13B44DF49C423B4911CAF5C /* Pods-StillWaitin-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StillWaitin-resources.sh"; sourceTree = "<group>"; };
+		D055280F60CDF7BA17BAABD94E9C69C8 /* SimpleTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SimpleTableView.m; path = SimpleUIKit/SimpleTableView/SimpleTableView.m; sourceTree = "<group>"; };
+		D6CA9FA04E01F8DF9196A9BC9198938B /* UIView+SimpleMotionEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SimpleMotionEffects.m"; path = "SimpleUIKit/SimpleMotionEffects/UIView+SimpleMotionEffects.m"; sourceTree = "<group>"; };
+		DB73742DAA0B7EC62D7C17B15271D7C0 /* UIView+SimplePositioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SimplePositioning.m"; path = "SimpleUIKit/SimplePositioning/UIView+SimplePositioning.m"; sourceTree = "<group>"; };
+		EDCF8864D119ACC4B6768D4F447847FA /* NSAttributedString+SimpleUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+SimpleUIKit.h"; path = "SimpleUIKit/SimpleAttributedString/NSAttributedString+SimpleUIKit.h"; sourceTree = "<group>"; };
+		F71319DDF6F236F17FEBEAC2F3BFBED5 /* CHCSVParser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHCSVParser.release.xcconfig; sourceTree = "<group>"; };
+		F7927077FB0266F60468CA8F726729D8 /* CHCSVParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHCSVParser.m; path = CHCSVParser/CHCSVParser/CHCSVParser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AE9777DE3D8111163A6F44D7D6C0D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23D8FFC0CC9969F22F62B53089FA3403 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD050272CA202BB98961BB01DC071D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C3A0CAA7B65B2D0291708FE1F3F04F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13BD906FE47FD082E654142739F5FBDE /* SimpleMotionEffects */ = {
+			isa = PBXGroup;
+			children = (
+				5EBCA75686492897137360722FE1F144 /* UIView+SimpleMotionEffects.h */,
+				D6CA9FA04E01F8DF9196A9BC9198938B /* UIView+SimpleMotionEffects.m */,
+			);
+			name = SimpleMotionEffects;
+			sourceTree = "<group>";
+		};
+		1518E225960AA56B2E5F68314F8E1206 /* CHCSVParser */ = {
+			isa = PBXGroup;
+			children = (
+				1AB3814A5AECCEE38032DDC19D96A116 /* CHCSVParser.h */,
+				F7927077FB0266F60468CA8F726729D8 /* CHCSVParser.m */,
+				C4E37413B61D479E2A7D452031702225 /* Support Files */,
+			);
+			name = CHCSVParser;
+			path = CHCSVParser;
+			sourceTree = "<group>";
+		};
+		1AF63E6E291C6FD69E16E74B188EBCEF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B3407BB905481213594C47452CC3E163 /* SAMKeychain.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		36C729A519A2174DCBF7E9076125F164 /* SimpleActivityView */ = {
+			isa = PBXGroup;
+			children = (
+				5BA520D7AE3E0709E5A74CB5D53FC4EF /* SimpleActivityView.h */,
+				00AD3742B6569751211F2ACF94198C14 /* SimpleActivityView.m */,
+			);
+			name = SimpleActivityView;
+			sourceTree = "<group>";
+		};
+		4854F16E4263CF3DBFFE82A70B0A36B9 /* Pods-StillWaitin */ = {
+			isa = PBXGroup;
+			children = (
+				271AB866516A7FB8CD2ECC9242A9A66B /* Pods-StillWaitin-acknowledgements.markdown */,
+				9FC9BBD828809709D3E6F2EA6C5C8783 /* Pods-StillWaitin-acknowledgements.plist */,
+				82C576D9F8A0DA19C5D01EBD772F2667 /* Pods-StillWaitin-dummy.m */,
+				C3563D1EF13B44DF49C423B4911CAF5C /* Pods-StillWaitin-resources.sh */,
+				51C66DDE6549D7E3293FBFC7EBB4D95B /* Pods-StillWaitin.beta.xcconfig */,
+				4BE97C364703BB9DBB5E7BBFBF99D180 /* Pods-StillWaitin.debug.xcconfig */,
+				8C46FB6F3459504D12AB5736362CB75D /* Pods-StillWaitin.distribution.xcconfig */,
+			);
+			name = "Pods-StillWaitin";
+			path = "Target Support Files/Pods-StillWaitin";
+			sourceTree = "<group>";
+		};
+		559B247E545B0FB45AB4BE3882F742FD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D3C8D5423BE3604F82916B78B08F935 /* SimpleUIKit-dummy.m */,
+				B4984B259D81E3E268D4BB4EDB679272 /* SimpleUIKit-prefix.pch */,
+				773D4589DBC70CF683EBD1B1D987F1C9 /* SimpleUIKit.debug.xcconfig */,
+				AEDA2FB8A77951C291DAFC5FDA4C66E5 /* SimpleUIKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SimpleUIKit";
+			sourceTree = "<group>";
+		};
+		655C75A52FAAF35B4C84E1FD6E8FE9B6 /* SimpleAttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				EDCF8864D119ACC4B6768D4F447847FA /* NSAttributedString+SimpleUIKit.h */,
+				73605D8874839F15BD9696E424A411AE /* NSAttributedString+SimpleUIKit.m */,
+			);
+			name = SimpleAttributedString;
+			sourceTree = "<group>";
+		};
+		65E2C2DB81F92EE7CD1D9315BD68C1FA /* SimpleUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				36C729A519A2174DCBF7E9076125F164 /* SimpleActivityView */,
+				BDE691A4CAF304E4F58533F0CF37BEE8 /* SimpleAlertController */,
+				655C75A52FAAF35B4C84E1FD6E8FE9B6 /* SimpleAttributedString */,
+				9C348BB22FB0364DB56F3B29BC345DF0 /* SimpleLocalNotification */,
+				13BD906FE47FD082E654142739F5FBDE /* SimpleMotionEffects */,
+				66570DA0D92173C8ED92DC82A4F0BA2C /* SimplePositioning */,
+				F09F0F70C33F907D13E56078E935E6FF /* SimpleTableView */,
+				559B247E545B0FB45AB4BE3882F742FD /* Support Files */,
+			);
+			name = SimpleUIKit;
+			path = SimpleUIKit;
+			sourceTree = "<group>";
+		};
+		66570DA0D92173C8ED92DC82A4F0BA2C /* SimplePositioning */ = {
+			isa = PBXGroup;
+			children = (
+				9577E28C09F8EA2B974693BBB607DBCA /* UIView+SimplePositioning.h */,
+				DB73742DAA0B7EC62D7C17B15271D7C0 /* UIView+SimplePositioning.m */,
+			);
+			name = SimplePositioning;
+			sourceTree = "<group>";
+		};
+		6D4D3E72E18F7362DAC480E204173126 /* SAMKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				789FEF443390155ACC7D9A38EF5E0A61 /* SAMKeychain.h */,
+				24A97E1A2C62C1B9B97D3B3FBC2BEFC6 /* SAMKeychain.m */,
+				4FEAAA5B4872DEE9F81804EB9B41DAE3 /* SAMKeychainQuery.h */,
+				452FA7EB73131A8A31E602D7E857EB5C /* SAMKeychainQuery.m */,
+				1AF63E6E291C6FD69E16E74B188EBCEF /* Resources */,
+				CDCB9184AF06B333654D38C9D376C668 /* Support Files */,
+			);
+			name = SAMKeychain;
+			path = SAMKeychain;
+			sourceTree = "<group>";
+		};
+		702D5912C8CBCC4D1A31CAA4A34F8E18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FAC9A4BCDF3824BEFA51DAB94D54AA4 /* CHCSVParser */,
+				65C6E529EFCDF9DB86162297A5F430F4 /* Pods-StillWaitin */,
+				612028EAFF1C2054A0EB821A9C9F2440 /* SAMKeychain */,
+				7A145E4A169C5DC54A5267B00F64B14D /* SimpleUIKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DD544742BF9D0F859D49269A8AC487A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1518E225960AA56B2E5F68314F8E1206 /* CHCSVParser */,
+				6D4D3E72E18F7362DAC480E204173126 /* SAMKeychain */,
+				65E2C2DB81F92EE7CD1D9315BD68C1FA /* SimpleUIKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C348BB22FB0364DB56F3B29BC345DF0 /* SimpleLocalNotification */ = {
+			isa = PBXGroup;
+			children = (
+				1EC7EB414D0B9DEA04ED0E1A39A3E936 /* SimpleLocalNotification.h */,
+				5CCFC2BAC123734F1629047332778496 /* SimpleLocalNotification.m */,
+			);
+			name = SimpleLocalNotification;
+			sourceTree = "<group>";
+		};
+		BDE691A4CAF304E4F58533F0CF37BEE8 /* SimpleAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				74816503174DB5F60EF679E81A4EF974 /* SimpleAlertButton.h */,
+				4D9DB4D39641DFFA6D25855BE218EB4F /* SimpleAlertButton.m */,
+				B133682DAE6ADB88C3BEEE8302468B94 /* UIAlertController+SimpleUIKit.h */,
+				5E6C32AD142E967797ACE948651A9AC4 /* UIAlertController+SimpleUIKit.m */,
+			);
+			name = SimpleAlertController;
+			sourceTree = "<group>";
+		};
+		C0D5A69BBB159EC31A27BD6F67ECC2F6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4854F16E4263CF3DBFFE82A70B0A36B9 /* Pods-StillWaitin */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C4E37413B61D479E2A7D452031702225 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFFC85EE881562FCD5A71D900CFAFFD3 /* CHCSVParser-dummy.m */,
+				94AA63B126804B02BBA5DC6AC2BBCFEA /* CHCSVParser-prefix.pch */,
+				03DC524D3A59753E342A9D2C47F88991 /* CHCSVParser.debug.xcconfig */,
+				F71319DDF6F236F17FEBEAC2F3BFBED5 /* CHCSVParser.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CHCSVParser";
+			sourceTree = "<group>";
+		};
+		CDCB9184AF06B333654D38C9D376C668 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B912F241F4E81B0620069768CC8CAF86 /* SAMKeychain-dummy.m */,
+				9407D621AC1AB8A932BF0D3F25FFEC40 /* SAMKeychain-prefix.pch */,
+				983FDC596BFFEDFEF35FEAF16C884E79 /* SAMKeychain.debug.xcconfig */,
+				A2E007A33FFE10CDC08F2D0CBD2BFDC0 /* SAMKeychain.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SAMKeychain";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				7DD544742BF9D0F859D49269A8AC487A /* Pods */,
+				702D5912C8CBCC4D1A31CAA4A34F8E18 /* Products */,
+				C0D5A69BBB159EC31A27BD6F67ECC2F6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F09F0F70C33F907D13E56078E935E6FF /* SimpleTableView */ = {
+			isa = PBXGroup;
+			children = (
+				16DB54138F32648ACD60DD2D44C55325 /* SimpleTableView.h */,
+				D055280F60CDF7BA17BAABD94E9C69C8 /* SimpleTableView.m */,
+			);
+			name = SimpleTableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02B3DA3BA769F2A388A334420309703C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08F365E877018F6038C1924755808326 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9106D041C6918A8A423DC07676783E9 /* CHCSVParser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BB889BECFF99369EDABA7DFB3CA12F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5241B208A68A5C81B2EDDB169635936B /* NSAttributedString+SimpleUIKit.h in Headers */,
+				37407EAEC76EE2397341C3B2481D2CCF /* SimpleActivityView.h in Headers */,
+				7D906F72A743C2BE780AF4DA784C47B4 /* SimpleAlertButton.h in Headers */,
+				BD5F5F49C67E7B65598F4FA1E35A3006 /* SimpleLocalNotification.h in Headers */,
+				851BD99B65738A50815F3222032AC528 /* SimpleTableView.h in Headers */,
+				E16DD88A62791FF1BBC637847A223823 /* UIAlertController+SimpleUIKit.h in Headers */,
+				C851A49A6992300C881BD8695E2C1236 /* UIView+SimpleMotionEffects.h in Headers */,
+				C07FCCCCB449B3229410E0F2E8722957 /* UIView+SimplePositioning.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42B1D95B4EF7E8278474257F557D2B29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C231E924EBD3B84CC215B7DDEC79873C /* SAMKeychain.h in Headers */,
+				5EA8D294AA6E52979AADFAA77D6E1293 /* SAMKeychainQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0556E01B497BF481907E709C9ADA092B /* SimpleUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2C96320894C07AC7B7EDF2EE8706F44 /* Build configuration list for PBXNativeTarget "SimpleUIKit" */;
+			buildPhases = (
+				0BB889BECFF99369EDABA7DFB3CA12F9 /* Headers */,
+				120A1A22BD6282920C565E822F2EED1A /* Sources */,
+				96C3A0CAA7B65B2D0291708FE1F3F04F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleUIKit;
+			productName = SimpleUIKit;
+			productReference = 7A145E4A169C5DC54A5267B00F64B14D /* SimpleUIKit */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3EA49E857BEC4B5CA3DDD9F2BD22DF63 /* Pods-StillWaitin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4965F7272E7F72A1945DCA72A427C94F /* Build configuration list for PBXNativeTarget "Pods-StillWaitin" */;
+			buildPhases = (
+				02B3DA3BA769F2A388A334420309703C /* Headers */,
+				6514A33152B43067A25B43F2CF3F87E2 /* Sources */,
+				4AD050272CA202BB98961BB01DC071D3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				162DDDB49D0740F7B33A5FA66178CCF0 /* PBXTargetDependency */,
+				F4F06149F74942B337DA9E182B623DEC /* PBXTargetDependency */,
+				117EDAA42B30CBD729FBE4C4AE02687B /* PBXTargetDependency */,
+			);
+			name = "Pods-StillWaitin";
+			productName = "Pods-StillWaitin";
+			productReference = 65C6E529EFCDF9DB86162297A5F430F4 /* Pods-StillWaitin */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C500D5E6C10F8B19CEBCA438100D3BD1 /* Build configuration list for PBXNativeTarget "SAMKeychain" */;
+			buildPhases = (
+				42B1D95B4EF7E8278474257F557D2B29 /* Headers */,
+				E6CA402F2F8C33F2806EBB7680457647 /* Sources */,
+				23D8FFC0CC9969F22F62B53089FA3403 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAMKeychain;
+			productName = SAMKeychain;
+			productReference = 612028EAFF1C2054A0EB821A9C9F2440 /* SAMKeychain */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D6BE8E566909E61AC3F867A2441E9E17 /* CHCSVParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D292D523C5AFE7716F79021CC8AE72 /* Build configuration list for PBXNativeTarget "CHCSVParser" */;
+			buildPhases = (
+				08F365E877018F6038C1924755808326 /* Headers */,
+				45AC07501A7D6B0ABB235E96A59C6A90 /* Sources */,
+				0AE9777DE3D8111163A6F44D7D6C0D5A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHCSVParser;
+			productName = CHCSVParser;
+			productReference = 9FAC9A4BCDF3824BEFA51DAB94D54AA4 /* CHCSVParser */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 702D5912C8CBCC4D1A31CAA4A34F8E18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6BE8E566909E61AC3F867A2441E9E17 /* CHCSVParser */,
+				3EA49E857BEC4B5CA3DDD9F2BD22DF63 /* Pods-StillWaitin */,
+				5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */,
+				0556E01B497BF481907E709C9ADA092B /* SimpleUIKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		120A1A22BD6282920C565E822F2EED1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D652BDFDB24CE69B271751F1207D9236 /* NSAttributedString+SimpleUIKit.m in Sources */,
+				291241816A344EF919BC161062AE95F5 /* SimpleActivityView.m in Sources */,
+				1C8CEFE3B0B501E758FEC939CDF27C08 /* SimpleAlertButton.m in Sources */,
+				A7DEA50D69E4EA6A306490366F4632B4 /* SimpleLocalNotification.m in Sources */,
+				598DD0B865B6836A871A97E07F82FC60 /* SimpleTableView.m in Sources */,
+				91FBDC660E15F8F58464E6EA07B919D1 /* SimpleUIKit-dummy.m in Sources */,
+				3C36E0230DA38F17AE6F2E8EC05D21CD /* UIAlertController+SimpleUIKit.m in Sources */,
+				3CFB9C8D31456E0AD8ECF0883F7B1174 /* UIView+SimpleMotionEffects.m in Sources */,
+				B031077844A34C106FBFE97DC6FEB61D /* UIView+SimplePositioning.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45AC07501A7D6B0ABB235E96A59C6A90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08B2E13A5459BEAF92CE37115A923E9 /* CHCSVParser.m in Sources */,
+				0B3F3AEF50D2662180BF16D7AB1E515D /* CHCSVParser-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6514A33152B43067A25B43F2CF3F87E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E7B3BC167BCF7EFAE7AFEC1C212A08 /* Pods-StillWaitin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CA402F2F8C33F2806EBB7680457647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AAC936EBA48090F6727E60A284D427 /* SAMKeychain.m in Sources */,
+				CBA61DDC7C60924FB12286192DB010DB /* SAMKeychain-dummy.m in Sources */,
+				C961BFBA7228C2CDEEA074DB588CA46B /* SAMKeychainQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		117EDAA42B30CBD729FBE4C4AE02687B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleUIKit;
+			target = 0556E01B497BF481907E709C9ADA092B /* SimpleUIKit */;
+			targetProxy = 4942E9853EE693FD32E2BA9E613C4055 /* PBXContainerItemProxy */;
+		};
+		162DDDB49D0740F7B33A5FA66178CCF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHCSVParser;
+			target = D6BE8E566909E61AC3F867A2441E9E17 /* CHCSVParser */;
+			targetProxy = 6F5255C2630A8CD99B0B169C3B46AF93 /* PBXContainerItemProxy */;
+		};
+		F4F06149F74942B337DA9E182B623DEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAMKeychain;
+			target = 5572D14DECB5A676C1B31B30A3BA7F10 /* SAMKeychain */;
+			targetProxy = 57D74E420EBE3D99BF65EFA38E33796D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2510C03CD50A440504F907A5AD9F64D2 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C46FB6F3459504D12AB5736362CB75D /* Pods-StillWaitin.distribution.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		33FF07996E521C6865D6A808689A070A /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51C66DDE6549D7E3293FBFC7EBB4D95B /* Pods-StillWaitin.beta.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Beta;
+		};
+		3A7B73D80498044242B2164E7D6C4DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BE97C364703BB9DBB5E7BBFBF99D180 /* Pods-StillWaitin.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		433D1045B53D8B2F0A153F07746EB475 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2E007A33FFE10CDC08F2D0CBD2BFDC0 /* SAMKeychain.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = SAMKeychain;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		489868A221FC180228DA5A7221E4D9A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773D4589DBC70CF683EBD1B1D987F1C9 /* SimpleUIKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleUIKit/SimpleUIKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SimpleUIKit;
+				PRODUCT_NAME = SimpleUIKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		575400F1CE1D6EC4F4FAC045A4D0317A /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F71319DDF6F236F17FEBEAC2F3BFBED5 /* CHCSVParser.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CHCSVParser/CHCSVParser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CHCSVParser;
+				PRODUCT_NAME = CHCSVParser;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Beta;
+		};
+		5900736356193622D7B760DB1C68B8FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03DC524D3A59753E342A9D2C47F88991 /* CHCSVParser.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CHCSVParser/CHCSVParser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CHCSVParser;
+				PRODUCT_NAME = CHCSVParser;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6FB0B13E539974A59E6A5E68926DE686 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEDA2FB8A77951C291DAFC5FDA4C66E5 /* SimpleUIKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleUIKit/SimpleUIKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SimpleUIKit;
+				PRODUCT_NAME = SimpleUIKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Beta;
+		};
+		8210EB98224C14036168D172B565376E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FADBB8F58835DAC23536271894EB7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CHCSVParser/CHCSVParser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CHCSVParser;
+				PRODUCT_NAME = CHCSVParser;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6296F28DCBEE717B7755D330EDBC09E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 983FDC596BFFEDFEF35FEAF16C884E79 /* SAMKeychain.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = SAMKeychain;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBBD0E6928198A39968E730FEF91C01C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F71319DDF6F236F17FEBEAC2F3BFBED5 /* CHCSVParser.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CHCSVParser/CHCSVParser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CHCSVParser;
+				PRODUCT_NAME = CHCSVParser;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		D7878442F26CFD3F69C262749EA2F9F0 /* Beta */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2E007A33FFE10CDC08F2D0CBD2BFDC0 /* SAMKeychain.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = SAMKeychain;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Beta;
+		};
+		DB2B9433E5BBBF2593ED9FC3AC2CB0ED /* Beta */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_BETA=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Beta;
+		};
+		E328A3C8DECF680E41A1F9203D4190F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleUIKit/SimpleUIKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SimpleUIKit;
+				PRODUCT_NAME = SimpleUIKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E352571BCBEF19739469DE285840222F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SAMKeychain/SAMKeychain-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SAMKeychain;
+				PRODUCT_NAME = SAMKeychain;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8CCC46FE5F9A3ECA091C6A1F0A6DFAD /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DISTRIBUTION=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Distribution;
+		};
+		FA46D1BDA19C4B3A5808E8F65F2A5649 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEDA2FB8A77951C291DAFC5FDA4C66E5 /* SimpleUIKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleUIKit/SimpleUIKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SimpleUIKit;
+				PRODUCT_NAME = SimpleUIKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2B9433E5BBBF2593ED9FC3AC2CB0ED /* Beta */,
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				F8CCC46FE5F9A3ECA091C6A1F0A6DFAD /* Distribution */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4965F7272E7F72A1945DCA72A427C94F /* Build configuration list for PBXNativeTarget "Pods-StillWaitin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33FF07996E521C6865D6A808689A070A /* Beta */,
+				3A7B73D80498044242B2164E7D6C4DE4 /* Debug */,
+				2510C03CD50A440504F907A5AD9F64D2 /* Distribution */,
+				8210EB98224C14036168D172B565376E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5D292D523C5AFE7716F79021CC8AE72 /* Build configuration list for PBXNativeTarget "CHCSVParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575400F1CE1D6EC4F4FAC045A4D0317A /* Beta */,
+				5900736356193622D7B760DB1C68B8FA /* Debug */,
+				CBBD0E6928198A39968E730FEF91C01C /* Distribution */,
+				9FADBB8F58835DAC23536271894EB7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2C96320894C07AC7B7EDF2EE8706F44 /* Build configuration list for PBXNativeTarget "SimpleUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB0B13E539974A59E6A5E68926DE686 /* Beta */,
+				489868A221FC180228DA5A7221E4D9A5 /* Debug */,
+				FA46D1BDA19C4B3A5808E8F65F2A5649 /* Distribution */,
+				E328A3C8DECF680E41A1F9203D4190F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C500D5E6C10F8B19CEBCA438100D3BD1 /* Build configuration list for PBXNativeTarget "SAMKeychain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7878442F26CFD3F69C262749EA2F9F0 /* Beta */,
+				C6296F28DCBEE717B7755D330EDBC09E /* Debug */,
+				433D1045B53D8B2F0A153F07746EB475 /* Distribution */,
+				E352571BCBEF19739469DE285840222F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,11 @@
+//
+//  InfoPlist.strings (German)
+//  StillWaitin
+//
+
+"NSLocationWhenInUseUsageDescription" = "Füge automatisch deinen aktuellen Ort zu neuen Einträgen hinzu";
+"NSContactsUsageDescription"          = "Emöglicht Kontakt-Vervollständigung aus dem Adressbuch bei der Eingabe eines Namens";
+"NSPhotoLibraryUsageDescription"      = "Ermöglicht die Auswahl von Fotos auf deinem Gerät";
+"NSPhotoLibraryAddUsageDescription"   = "Speichere Fotos auf deinem Gerät";
+"NSCameraUsageDescription"            = "Ermöglicht die Aufnahmen von neuen Fotos direkt in der App";
+"NSFaceIDUsageDescription"            = "Ermöglicht es FaceID / TouchID anstatt eines Passwortes zu nutzen.";
