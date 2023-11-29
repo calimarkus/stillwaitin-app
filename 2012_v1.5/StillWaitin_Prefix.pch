@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'StillWaitin' target in the 'StillWaitin' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#import "Global.h"
+	#import "Log.h"
+    #import "UIView+position.h"
+    #import "UIColor+ColorWithHex.h"
+#endif

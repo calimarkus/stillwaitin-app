@@ -1,0 +1,10 @@
+/* 
+   InfoPlist.strings
+   StillWaitin
+
+   Created by devmob on 28.05.10.
+   Copyright 2010 devmob. All rights reserved.
+ */
+
+"CFBundleName" = "still waitin";
+"CFBundleDisplayName" = "still waitin";

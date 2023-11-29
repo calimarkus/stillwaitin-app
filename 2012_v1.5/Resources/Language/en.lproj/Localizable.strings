@@ -1,0 +1,65 @@
+/* 
+   Localizable.strings
+   StillWaitin
+
+   Created by devmob on 28.05.10.
+   Copyright 2010 devmob. All rights reserved.
+ */
+
+"keyOk" = "OK";
+"keyCancel" = "Cancel";
+"keyAttention" = "Attention";
+"keyDelete" = "Delete";
+"keyMail" = "Mail";
+"keyEdit" = "Edit";
+"keySave" = "Save";
+"keyDeleteAttentionMessage" = "Really delete?";
+"keyDatePattern" = "MM/dd/yyyy";
+"keyShortDatePattern" = "MMM dd";
+"keyDatePatternDay" = "dd";
+"keyDatePatternMonth" = "MMM";
+"keyAddressBookContactPattern" = "#firstName# #lastName#";
+"keyFooterInPattern" = "#person# owes me #value#";
+"keyFooterOutPattern" = "I owe #person# #value#";
+"keyFooterConcat" = "and";
+"keyFooterItem" = "items";
+"keyFooterOnlyItem" = "owing items";
+"keyPerson" = "Person";
+"keyDescription" = "Description";
+"keyNoDescription" = "No Description";
+"keySavingEntry" = "Saving entry";
+"keyLocationServiceError" = "Location Services Disabled";
+"keyLocationServiceMessage" = "You currently have all location services for this device disabled. If you proceed, you will be asked to confirm whether location services should be reenabled.";
+"keyMailSubject" = "A Short Reminder";
+"keyListInfoTextImageUrl" = "list_info_text_en.png";
+
+"keyMailAllDebtsOfPerson" = "Send summary";
+"keyMailSingleDebt"       = "Send this debt only";
+
+"keyAddFirstEntry" = "Create a new entry";
+"keySettingsTitle" = "Settings";
+
+"keySortingTitle"	= "Sorting of people";
+"keySortingMethodA"	= "Alphabetical";
+"keySortingMethodB"	= "Chronological";
+"keyShowTotalSum"	= "Show total sum";
+"keyRate"			= "Rate";
+"keyRateApp"		= "Rate still waitin";
+"keyOpenAppStore"	= "Close still waitin and open the App Store?";
+"keyRateInfoText"	= "Do you like still waitin? \n (This message won't be shown again.)";
+"keySetupPassword"	= "Setup password";
+
+"keyNotification" = "Notification";
+
+"keyAddPhotoTakeNew"		= "Take photo";
+"keyAddPhotoFromLibrary"	= "Choose photo from library";
+
+"keyLiteVersionTitle"               = "Limited usage";
+"keyLiteVersionEntriesMessage"      = "The lite version allows only three entries. Download the full version of still waitin now.";
+"keyLiteVersionNotificationMessage" = "The lite version does not support notifications. Download the full version of still waitin now.";
+"keyLiteVersionMailMessage"         = "The lite version does not support the sending of reminder emails. Download the full version of still waitin now.";
+"keyLiteVersionPasswordMessage"     = "The lite version does not support securing the app using a password. Download the full version of still waitin now.";
+"keyLiteVersionCancel"              = "No, thanks";
+"keyLiteVersionAccept"              = "To App Store";
+"keyLiteVersionAppStoreLink"        = "http://itunes.apple.com/us/app/still-waitin-debt-manager-iou/id385448071?mt=8";
+"keyLiteVersionAd"                  = "Advertisement (Lite Version Only)";
