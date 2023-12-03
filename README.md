@@ -1,6 +1,8 @@
 # stillwaitin-app
 The still waitin app source code - active in the App Store from 2010-2020.
 
+![logo](logo.jpg)
+
 ### App Description:
 
 Keep track of your cash financials. Never forget about money that you lent to or got from friends, family, colleagues or customers. No matter the amount. Get a push reminder at the day & time of your choice or send out a formatted email about open debts to your contacts, so they don't forget either.
