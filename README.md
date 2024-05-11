@@ -11,11 +11,11 @@ Keep track of your cash financials. Never forget about money that you lent to or
 
 This app was originally written for iOS3. That's before GCD & ARC was available, which were released for iOS4 & iOS5 respectively. That's also before the first Retina display of the iPhone 4 or much newer iOS features like Dark Mode or the Dynamic Island. Let alone Swift or SwiftUI.
 
-It's an app, which @martinstolz and me wrote together as a side project to learn iOS development. So don't take this as an architectural marvel, but instead as a small window into the history of iOS development. We continued to maintain and update it for another 10 years until we took it out of the appstore in 2020. 
+@martinstolz and me wrote it together as a side project to learn iOS development. So don't mistake it as an exemplary app architecture, but instead as a small window into the history of iOS development.
 
-Here's a small twitter (ehm "X") and mastadon thread with some additional background, highlighting a few of our choices too:
-- https://twitter.com/calimarkus/status/1731789068709625912
-- https://mastodon.social/@calimarkus/111529854504061636
+We maintained and updated it for 10 years until we finally took it out of the AppStore in 2020. 
+
+Also see [`HIGHLIGHTS.md`](HIGHLIGHTS.md), which highlights a few spots in the source code and the choices we made, while making the App.
 
 ### Source code
 
